@@ -11,6 +11,25 @@ CheatGPT is a Streamlit web application that leverages the Google Gemini 1.5 Fla
 - Handles Google API quota limits gracefully with user guidance
 - Usage tips and API configuration instructions included in the UI
 
+## Project Screenshots
+
+Add screenshots of the project here to showcase the UI and features. You can add images using Markdown syntax:
+
+```markdown
+![Screenshot description](path/to/image.png)
+```
+
+Example:
+
+![Screenshot 1 - Text Chat](s1.png)
+*Text Chat interface with Google Gemini*
+
+![Screenshot 2 - Image Analysis](s2.png)
+*Image Analysis tab with custom prompt*
+
+![Screenshot 3 - Prompt Suggestions](s3.png)
+*Prompt suggestions for image analysis*
+
 ## Installation
 
 1. Clone this repository or download the source code.
