@@ -15,7 +15,7 @@ CheatGPT is a Streamlit web application that leverages the Google Gemini 1.5 Fla
 
 Add screenshots of the project here to showcase the UI and features. You can add images using Markdown syntax:
 
-```markdown
+
 ![Screenshot description](path/to/image.png)
 ```
 
