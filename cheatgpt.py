@@ -8,8 +8,12 @@ import time
 
 st.title("CheatGPT")
 
+import os
+
 # Configure API key (consider using st.secrets for production)
-GOOGLE_API_KEY = "AIzaSyBt0687jSBOznKa5IiPVBak1vUcnOKZyUo"
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "")
+if not GOOGLE_API_KEY:
+    st.error("Google API key is not set. Please set the GOOGLE_API_KEY environment variable.")
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # Create tabs for different input modes

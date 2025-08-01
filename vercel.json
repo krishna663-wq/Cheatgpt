@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "cheatgpt.py",
+      "use": "@vercel/python",
+      "config": { "maxLambdaSize": "15mb" }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "cheatgpt.py"
+    }
+  ],
+  "env": {
+    "GOOGLE_API_KEY": "AIzaSyBt0687jSBOznKa5IiPVBak1vUcnOKZyUo"
+  }
+}
